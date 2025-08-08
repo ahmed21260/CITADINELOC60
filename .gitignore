@@ -1,0 +1,286 @@
+# ===========================================
+# GITIGNORE OPTIMISÉ - PROJET REACT/FIREBASE
+# ===========================================
+
+# ===========================================
+# INFORMATIONS SENSIBLES ET SECRETS
+# ===========================================
+
+# Variables d'environnement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# Fichiers de configuration sensibles
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+firebase-config.json
+serviceAccountKey.json
+google-services.json
+GoogleService-Info.plist
+
+# Clés API et secrets
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+config/secrets/
+
+# ===========================================
+# FICHIERS GÉNÉRÉS AUTOMATIQUEMENT
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.eslintcache
+
+# Vite
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+ui-debug.log
+firebase-export-*
+firebase-import-export-*
+
+# ===========================================
+# ENVIRONNEMENTS ET LOGS
+# ===========================================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ===========================================
+# SYSTÈMES D'EXPLOITATION
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# ÉDITEURS ET IDES
+# ===========================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# BUILD ET OUTPUT
+# ===========================================
+
+# Build outputs
+build/
+out/
+.next/
+.nuxt/
+dist/
+dist-ssr/
+*.local
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# ===========================================
+# TESTING
+# ===========================================
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+test-results/
+playwright-report/
+test-results.xml
+
+# ===========================================
+# TEMPORAIRE ET DEBUG
+# ===========================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# Debug files
+debug.log
+debug/
+*.debug
+
+# ===========================================
+# FICHIERS SPÉCIFIQUES AU PROJET
+# ===========================================
+
+# Firebase Functions
+functions/node_modules/
+functions/lib/
+functions/.runtimeconfig.json
+
+# Local development
+.local/
+dev/
+development/
+
+# ===========================================
+# AUTRES
+# ===========================================
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
