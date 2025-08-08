@@ -1,6 +1,6 @@
 
-import { auth, db, storage, functions } from '../firebaseConfig.js';
-import { httpsCallable } from "firebase/functions.js";
+import { auth, db, storage, functions } from '../firebaseConfig';
+import { httpsCallable } from "firebase/functions";
 import { 
     createUserWithEmailAndPassword, 
     signInWithEmailAndPassword, 
@@ -10,7 +10,7 @@ import {
     onAuthStateChanged as onFirebaseAuthStateChanged,
     updateProfile as updateFirebaseProfile,
     User as FirebaseUser
-} from "firebase/auth.js";
+} from "firebase/auth";
 import { 
     doc, 
     setDoc, 
@@ -23,8 +23,8 @@ import {
     where,
     updateDoc,
     orderBy
-} from "firebase/firestore.js";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage.js";
+} from "firebase/firestore";
+import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { User, Booking } from '../types';
 
 type DocumentKeys = 'licenseFront' | 'licenseBack' | 'proofOfAddress' | 'identity';

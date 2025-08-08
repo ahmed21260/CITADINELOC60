@@ -1,4 +1,4 @@
-import { Timestamp } from 'firebase/firestore.js';
+import { Timestamp } from 'firebase/firestore';
 
 export enum GearboxType {
   Automatic = "Automatique",

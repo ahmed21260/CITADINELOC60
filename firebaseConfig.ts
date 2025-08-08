@@ -1,8 +1,8 @@
-import { initializeApp } from "firebase/app.js";
-import { getAuth } from "firebase/auth.js";
-import { getFirestore } from "firebase/firestore.js";
-import { getStorage } from "firebase/storage.js";
-import { getFunctions } from "firebase/functions.js";
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+import { getFunctions } from "firebase/functions";
 
 // Your web app's Firebase configuration.
 // This is safe to be published on the client-side as it only contains public identifiers.

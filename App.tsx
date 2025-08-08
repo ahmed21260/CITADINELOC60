@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { getRedirectResult } from 'firebase/auth.js';
-import { auth } from './firebaseConfig.js';
+import { getRedirectResult } from 'firebase/auth';
+import { auth } from './firebaseConfig';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
