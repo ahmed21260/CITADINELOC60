@@ -19,12 +19,14 @@ export default defineConfig(({ mode }) => {
         strictPort: true,
         watch: {
           usePolling: true
-        }
+        },
+        allowedHosts: 'all'
       },
       preview: {
         host: '0.0.0.0',
         port: 5173,
-        strictPort: true
+        strictPort: true,
+        allowedHosts: 'all'
       }
     };
 });
