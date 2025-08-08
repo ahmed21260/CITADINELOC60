@@ -1,0 +1,31 @@
+run = "npm run replit"
+entrypoint = "index.html"
+
+[nix]
+channel = "stable-25_05"
+
+[deployment]
+run = ["sh", "-c", "npm run replit"]
+
+[[ports]]
+localPort = 5173
+externalPort = 80
+
+[env]
+VITE_HOST = "0.0.0.0"
+VITE_PORT = "5173"
+
+[packager]
+language = "nodejs"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+
+[languages]
+[languages.javascript]
+pattern = "**/*.{js,jsx,ts,tsx}"
+syntax = "javascript"
+
+[languages.javascript.languageServer]
+start = [ "typescript-language-server", "--stdio" ] 
